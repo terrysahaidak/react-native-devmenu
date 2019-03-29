@@ -46,6 +46,7 @@
       "never",
       { "ignorePackages": true, "js": "never" }
     ],
-    "react/no-multi-comp": 0
+    "react/no-multi-comp": 0,
+    "react/prop-types": 0
   }
 }

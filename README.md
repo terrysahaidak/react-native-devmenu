@@ -75,13 +75,13 @@ It renders children without any wrapper in production.
 ```jsx
 import DevMenu from '@terrysahaidak/react-native-devmenu';
 
-const Root = () => (
-  <DevMenuOnTouch numberOfTouches={4}>
+const App = () => (
+  <DevMenu numberOfTouches={4}>
     {/* your app stuff such as providers, navigators etc */}
-  </DevMenuOnTouch>
+  </DevMenu>
 );
 
-AppRegistry.registerComponent('myApp', () => Root);
+AppRegistry.registerComponent('myApp', () => App);
 ```
 
 ## License

@@ -11,7 +11,9 @@ Install the library from npm:
 ```bash
 npm i --save @terrysahaidak/react-native-devmenu
 ```
+
 or
+
 ```bash
 yarn add @terrysahaidak/react-native-devmenu
 ```
@@ -22,7 +24,7 @@ You don't need to do somethings because DevMenu package is already included in R
 
 ### Build configuration on Android
 
-If you need Android support, it's recommended to use `react-native link` to link Android's native module:
+If you need Android support and you're using React Native 60 and later, you don't need to do anything. But if React Native version is above 60, it's recommended to use `react-native link` to link Android's native module:
 
 ```bash
 react-native link @terrysahaidak/react-native-devmenu
@@ -85,4 +87,5 @@ AppRegistry.registerComponent('myApp', () => App);
 ```
 
 ## License
+
 [MIT](LICENSE) © [Terry Sahaidak](https://github.com/terrysahaidak)/[Oleh Mryhlod](https://github.com/oleh-mryhlod) 2019
